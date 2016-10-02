@@ -9,5 +9,6 @@ module.exports = {
     pack    : require('./lib/oflib.js').pack,
     Stream  : require('./lib/stream.js'),
     JSON    : require('./lib/json.js'),
-    ofp     : require('./lib/ofp.js')
+    ofp     : require('./lib/ofp.js'),
+    packet  : require('./lib/packet.js'),
 }
